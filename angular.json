@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "prueba-tecnica:build:production",
+            "firebaseProject": "prueba-tecnica-facturas-260f1",
+            "firebaseHostingSite": "prueba-tecnica-facturas-260f1"
+          }
         }
       }
     }

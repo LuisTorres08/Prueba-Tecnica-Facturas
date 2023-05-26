@@ -1,0 +1,11 @@
+<ul>
+    <li *ngFor="let factura of facturas | async">
+      <h3>Factura: {{ factura.numero }}</h3>
+      <p>Subtotal: {{ factura.subtotal }}</p>
+      <p>Descuento: {{ factura.totalDescuento }}</p>
+      <p>Total a pagar: {{ factura.totalPagar }}</p>
+
+      <button (click)="eliminarFactura(factura.id)">Eliminar</button>
+    </li>
+  </ul>
+  

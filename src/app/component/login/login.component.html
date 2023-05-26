@@ -1,0 +1,26 @@
+<div class="login-container">
+    <div class="login-card">
+        <div class="text-center mb-4">
+            <h4 class="text-dark">Login</h4>
+        </div>
+        <form>
+            <div class="mb-3">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" [(ngModel)]="email"
+                    placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="inputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" name="password" [(ngModel)]="password"
+                    placeholder="Enter your password">
+            </div>
+            <div class="d-grid gap-2 mb-3">
+                <button type="button" class="btn btn-primary" (click)="login()">Login</button>
+            </div>
+            <div class="text-center mb-3">
+                <a href="/register" style="text-decoration: none;">Need an account? <span
+                        class="text-danger">Register</span></a>
+            </div>
+        </form>
+    </div>
+</div>

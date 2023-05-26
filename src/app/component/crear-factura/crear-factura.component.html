@@ -1,0 +1,17 @@
+<form (ngSubmit)="guardarFactura(factura)" #facturaForm="ngForm">
+    <label> 
+        Numero de factura:
+        <input type="text" name="numero" [(ngModel)]="factura.numero"> 
+    </label>
+
+    <label> 
+        Subtotal:
+        <input type="number" name="numero" [(ngModel)]="factura.subtotal"> 
+    </label>
+
+    <label> 
+        Descuento:
+        <input type="number" name="numero" [(ngModel)]="factura.totalDescuento"> 
+    </label>
+    <button type="submit">Guardar</button>
+</form>

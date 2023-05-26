@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "prueba-tecnica-facturas-260f1": {
+      "hosting": {
+        "prueba-tecnica": [
+          "prueba-tecnica-facturas-260f1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "prueba-tecnica-facturas-260f1"
+  }
+}
